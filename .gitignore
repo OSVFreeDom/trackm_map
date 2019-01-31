@@ -1,0 +1,10 @@
+node_modules/
+
+dist/img/*
+dist/js/*.js
+dist/js/*.js.map
+
+config.php
+
+!dist/img/icon/
+!dist/img/icon/*.png

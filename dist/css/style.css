@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+html, body, #map {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#menu {
+    padding: 0;
+    background-color: #353b48;
+    float: left;
+    position: absolute;
+    z-index: 10;
+    width: 18rem;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#menu .header {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #fff;
+    background-color: #2f3640;
+}
+
+#menu .status {
+    margin: 0;
+    padding: .5rem;
+    background-color: #c0392b;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu .body {
+    color: #aaa;
+}
+
+#menu ul {
+    height: 100%;
+}
+
+#detail {
+    padding: 0;
+    background-color: #353b48;
+    float: right;
+    right: 0;
+    margin: 1rem;
+    width: 15rem;
+    position: absolute;
+    z-index: 10;
+    color: #aaa;
+}
+
+#detail.displayed {
+    display: inherit;
+}
+
+#detail .name {
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    background-color: #2f3640;
+    text-transform: uppercase;
+}
+
+#detail table {
+    width: 100%;
+    color: #bbb;
+    background-color: #353b48;
+}
+
+#detail tr td {
+    padding: 5px;
+    font-size: 0.75rem;
+}
+
+#detail tr td.key {
+    padding: 5px;
+    font-size: 0.75rem;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu ul li {
+    height: 2rem;
+    border-bottom: 2px solid #2f3640;
+}
+
+.entity.selected {
+    color: #000;
+    background-color: #ccc;
+}
+
+.entity .icon {
+    float: left;
+    margin-left: 0.25rem;
+    padding: .3rem;
+    width: 1.25rem;
+    height: auto;
+}
+
+.entity .name {
+    float: left;
+    margin-left: 0.5rem;
+    font-size: 10pt;
+    line-height: 2rem;
+}
+

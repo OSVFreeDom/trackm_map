@@ -1,0 +1,20 @@
+{
+  "name": "trackm_map",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outFile dist/js/trackm.js",
+    "build-release": "tsc --outFile dist/js/trackm.js && uglifyjs --compress --mangle --output dist/js/trackm.min.js -- dist/js/trackm.js"
+  },
+  "keywords": [],
+  "author": "RandomSean",
+  "license": "MIT",
+  "dependencies": {
+    "@types/openlayers": "^4.6.15"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4",
+    "uglify-js": "^3.4.9"
+  }
+}
