@@ -25,6 +25,7 @@ TrackM is an entity tracking live map for FiveM game servers.
 
 The TrackM web interface is configured in the `config.php` file.
 The following settings are available:
+
 | Name              | Type     | Default                   | Description                                              |
 | ----------------- | -------- | ------------------------- | -------------------------------------------------------- |
 | `NAME`            | `string` | `'TrackM'`                | Name that appears on the side menu and tab.              |
